@@ -9,5 +9,5 @@ fn main() {
             .spawn()    //spawns it
             .expect("brave failed to start"); // or tells it that it failed
 
-            
+    autopilot::key::tap(key: &ALT,0);
 }
